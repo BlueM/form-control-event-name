@@ -1,0 +1,26 @@
+{
+  "name": "@bluem/form-control-event-name",
+  "version": "1.0.0",
+  "description": "Vanilla JS browser lib for getting name of an event emitted by a form control when changed",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "keywords": [
+    "form",
+    "browser",
+    "event"
+  ],
+  "author": {
+    "name": "Carsten Blüm",
+    "email": "carsten@bluem.net",
+    "url": "https://www.bluem.net/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  }
+}

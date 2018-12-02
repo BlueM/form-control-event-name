@@ -1,0 +1,36 @@
+# Overview
+
+This library is a helper library extracted from [@bluem/form-change-tracker](https://www.npmjs.com/package/@bluem/form-change-tracker) to be reused in other contexts. It merely serves for getting the name of the event emitted by an HTML form element when changed (for example: “click” for a checkbox, “change” for a `<select>` element).
+
+## Browser support
+
+This library will work (at least) on:
+
+* Google Chrome Desktop and Android (any version)
+* Firefox Desktop and Android (any version)
+* Safari Desktop and iOS (any version)
+* Microsoft Edge (any version)
+* Microsoft IE11 (older versions untested)
+
+
+# Usage
+The library is an ES6 class, so the way to use it depends on your tooling and the browsers you want to support. But basic usage is:
+
+    // If native ES6 module in browser:
+    import formControlEvenName from './node_modules/@bluem/form-control-event-name/index.js';
+
+    // OR:
+    // If using Webpack or Parcel for bundling:
+    // import formControlEvenName from '@bluem/form-control-event-name/index.js';
+
+    formControlEvenName(myFormElement); // Will return the name of the event (string)
+
+
+# Tests
+Install npm depencencies, then run `npm run test` or `npm run test-coverage`.
+
+
+# Version History
+
+## 1.0 (2018-12-02)
+- Initial release
