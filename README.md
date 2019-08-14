@@ -32,5 +32,8 @@ Install npm depencencies, then run `npm run test` or `npm run test-coverage`.
 
 # Version History
 
+## 1.0.1 (2019-08-14)
+- Updated npm dependencies to fix vulnerabilites in 3rd-party code. No changes in the module itself.
+
 ## 1.0 (2018-12-02)
 - Initial release
