@@ -42,7 +42,7 @@ export default function (control) {
             // Ignore
             return null;
         default:
-            console.warn(`Unsupported type: “${control.type}”`);
+            console.warn('Unsupported type: “' + control.type + '”');
             return null;
     }
 }
