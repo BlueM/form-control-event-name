@@ -16,21 +16,27 @@ This library will work (at least) on:
 # Usage
 The library is an ES6 class, so the way to use it depends on your tooling and the browsers you want to support. But basic usage is:
 
-    // If using native ES6 module in browser:
-    import formControlEvenName from './node_modules/@bluem/form-control-event-name/index.js';
+```javascript
+// If using native ES6 module in browser:
+import formControlEvenName from './node_modules/@bluem/form-control-event-name/index.js';
 
-    // OR:
-    // If using Webpack or Parcel for bundling:
-    // import formControlEventName from '@bluem/form-control-event-name/index.js';
+// OR:
+// If using Webpack or Parcel for bundling:
+// import formControlEventName from '@bluem/form-control-event-name/index.js';
 
-    formControlEventName(myFormElement); // Will return the name of the event (string)
-
+formControlEventName(myFormElement); // Will return the name of the event (string)
+```
 
 # Tests
 Install npm depencencies, then run `npm run test` or `npm run test-coverage`.
 
+# License
+MIT License
 
 # Version History
+
+## 1.0.5 (2021-06-27)
+- Updated npm dependencies to fix vulnerabilites dev dependencies
 
 ## 1.0.4 (2020-09-29)
 - Fix IE11 compatibility, for cases where ES6 is not transpiled to ES5.
