@@ -35,8 +35,11 @@ MIT License
 
 # Version History
 
+## 1.0.6 (2022-04-10)
+
+- Updated npm dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
 ## 1.0.5 (2021-06-27)
-- Updated npm dependencies to fix vulnerabilites dev dependencies
+- Updated npm dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
 
 ## 1.0.4 (2020-09-29)
 - Fix IE11 compatibility, for cases where ES6 is not transpiled to ES5.
