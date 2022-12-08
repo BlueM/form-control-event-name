@@ -28,12 +28,21 @@ describe('formControlEventName', function () {
     });
 
     it('should return “input” for type “range”', function () {
+        Object.defineProperty(global, "window", {
+            value: {
+                navigator: {userAgent: 'Some user agent'},
+            },
+            writable: true
+        });
         expect(formControlEventName({type: 'range'})).toEqual('input');
     });
 
     it('should return “change” for type “range”, if MSIE', function () {
-        window.navigator.__defineGetter__('userAgent', function () {
-            return 'Some MSIE version';
+        Object.defineProperty(global, "window", {
+            value: {
+                navigator: {userAgent: 'Some MSIE version'},
+            },
+            writable: true
         });
         expect(formControlEventName({type: 'range'})).toEqual('change');
     });

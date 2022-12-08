@@ -31,7 +31,7 @@ export default function (control) {
         case 'select-one':
             return 'change';
         case 'range':
-            if (-1 !== navigator.userAgent.indexOf('MSIE')) {
+            if (-1 !== window.navigator.userAgent.indexOf('MSIE')) {
                 // Will trigger "change", but not "input"
                 return 'change';
             }
