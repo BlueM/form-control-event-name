@@ -14,7 +14,7 @@ This library will work (at least) on:
 
 
 # Usage
-The library is an ES6 class, so the way to use it depends on your tooling and the browsers you want to support. But basic usage is:
+The library is an ES6 module, so the way to use it depends on your tooling and the browsers you want to support. But basic usage is:
 
 ```javascript
 // If using native ES6 module in browser:
