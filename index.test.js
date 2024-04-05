@@ -48,8 +48,8 @@ describe('formControlEventName', function () {
     });
 
     it('should return null for an unknown type', function () {
-        jest.spyOn(global.console, 'warn');
+        const warn = jest.spyOn(console, "warn").mockImplementation(() => {});
         expect(formControlEventName({type: 'foobar'})).toBeNull();
-        expect(console.warn).toHaveBeenCalledTimes(1);
+        expect(warn).toHaveBeenCalledTimes(1);
     });
 });
