@@ -1,6 +1,6 @@
 {
   "name": "@bluem/form-control-event-name",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Vanilla JS browser lib for getting name of an event emitted by a form control when changed",
   "main": "index.js",
   "scripts": {
