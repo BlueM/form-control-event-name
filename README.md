@@ -35,12 +35,18 @@ MIT License
 
 # Version History
 
+## 1.0.9 (2026-04-27)
+- Updated dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
+
 ## 1.0.8 (2024-04-05)
 - Updated npm dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
+
 ## 1.0.7 (2022-12-08)
 - Updated npm dependencies to fix vulnerabilites in dev dependencies. No relevant change in the module itself.
+
 ## 1.0.6 (2022-04-10)
 - Updated npm dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
+
 ## 1.0.5 (2021-06-27)
 - Updated npm dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
 
