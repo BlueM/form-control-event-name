@@ -35,6 +35,9 @@ MIT License
 
 # Version History
 
+## 1.0.10 (2026-04-27)
+- Updated dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
+
 ## 1.0.9 (2026-04-27)
 - Updated dependencies to fix vulnerabilites in dev dependencies. No changes in the module itself.
 
